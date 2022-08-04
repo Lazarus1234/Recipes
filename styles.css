@@ -62,26 +62,92 @@ img {
     background-color: blueviolet;
     border: 0 solid green;
 } */
-body {
+.body {
     background: #eee;
     font-family: sans-serif;
 }
+.card {
+    width: 350px;
+    background: #fff;
+    margin: 20px auto;
+    padding: 12px;
 
-.div.one {
+}
+/*.div.one {
     padding: 32px;
     border: 3px solid green;
     margin: 12px;
+}*/
+.title{
+    background-color: #e3f4ff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
 }
-
 .div.two {
-    padding: 5px;
+   /* padding: 5px;
     border: 10px solid blue;
-    margin-bottom: 48px;
+    margin-bottom: 48px;*/
+    background: #e3f4ff;
+    margin-bottom: 10px;
+    padding: 18px 10px;
 }
 .div.three {
 
-    padding: 32px;
+    /*padding: 32px;
     border: 10px solid red;
     width: 200px;
-    margin-left: auto;
+    margin-left: auto; */
+    background: #e3f4ff;
+    text-align: center;
+    padding: 10px;
+}
+button {
+    background: white;
+    border: 2px solid #eee;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 24px;
+}
+
+
+
+.flex-container {
+    background: greenyellow;
+    border: 6px solid pink;
+    display: flex;
+}
+.one-container {
+    background: red;
+    border: 4px solid blue;
+    display: flex;
+}
+.two {
+    background: aqua;
+    border: 4px solid black;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
+}
+.three {
+    background: green;
+    border: 4px solid yellow;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
+}
+.four {
+    background: aqua;
+    border: 4px solid black;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
+}
+.five {
+    background: green;
+    border: 4px solid yellow;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
 }
