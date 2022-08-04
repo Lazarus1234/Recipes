@@ -1,4 +1,4 @@
-body {
+/* body {
     color: wheat;
     background-color:violet;
 }
@@ -34,17 +34,23 @@ img {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    /*box-sizing: border-box;*/
+}
 
-
-
-
+/*
 .box.one {
     background-color:blue;
     padding: 20px;
-    height: 50px;
+    height: 150px;
     width: 150px;
     border: 20px solid black;
     margin: 15px;
+    
 }
 
 .box.two {
@@ -55,4 +61,27 @@ img {
 .box.three {
     background-color: blueviolet;
     border: 0 solid green;
+} */
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.div.one {
+    padding: 32px;
+    border: 3px solid green;
+    margin: 12px;
+}
+
+.div.two {
+    padding: 5px;
+    border: 10px solid blue;
+    margin-bottom: 48px;
+}
+.div.three {
+
+    padding: 32px;
+    border: 10px solid red;
+    width: 200px;
+    margin-left: auto;
 }
