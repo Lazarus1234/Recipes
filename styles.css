@@ -1,0 +1,58 @@
+body {
+    color: wheat;
+    background-color:violet;
+}
+
+#parent {
+    background-color: darkcyan;
+    color: blueviolet;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.child {
+    color:gold;
+}
+
+
+button {
+ font-size: 18px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: chartreuse;
+}
+img {
+    height: 15px;
+    width: 15px;
+}
+.alert-text {
+    color: red;
+}
+
+#title {
+    color: indigo;
+    background-color: springgreen;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.box.one {
+    background-color:blue;
+    padding: 20px;
+    height: 50px;
+    width: 150px;
+    border: 20px solid black;
+    margin: 15px;
+}
+
+.box.two {
+    background-color: tomato;
+    border: 0 solid yellow;
+}
+
+.box.three {
+    background-color: blueviolet;
+    border: 0 solid green;
+}
